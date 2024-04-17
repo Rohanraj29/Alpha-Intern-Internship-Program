@@ -1,0 +1,727 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    cursor: pointer;
+}
+.main{
+    height: 200px;
+    width: 300px;
+    background-color: #111111;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: fixed;
+    top: 0px;
+    left: 8px;
+    right: 0px;
+    bottom: 0px;
+    padding: 20px 10px;
+}
+.images {
+    width: 60px;
+    height: 60px;
+}
+.images img{
+    width: 55px;
+}
+.images p{
+    color: white;
+    position: relative;
+    bottom: 60px;
+    left: 60px;
+}
+ul{
+    list-style-type: none;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+span{
+    color: white;
+    cursor: pointer;
+}
+ul li p{
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 34px;
+    width: 100px;
+    bottom: 8px;
+}
+.sidebar2 {
+    width: 300px;
+    background-color: #111111;
+    position: fixed;
+    top: 250px;
+    border-radius: 5px;
+    padding: 20px 10px;
+    left: 8px;
+    right: 0px;
+    bottom: 0px;
+}
+.sidebar2 p{
+    cursor: pointer;
+    color: white;
+    position: relative;
+    bottom: 40px;
+    left: 22px;
+}
+.create {
+    background-color: #302f2f;
+    border-radius: 8px;
+    padding: 30px 20px;
+    position: relative;
+    bottom: 15px;
+}
+.create h4 {
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 18px;
+}
+.create p {
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+.create button {
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+}
+.find{
+    background-color: #302f2f;
+    border-radius: 8px;
+    padding: 30px 20px;
+    position: relative;
+}
+.find button{
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    top: 15px;
+}
+.find h4{
+    color: white;
+    width: 280px;
+}
+.find p{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 1px;
+}
+.sidebarscroll{
+    overflow-y: auto;
+    height: 200px;
+}
+.sidebarscroll::-webkit-scrollbar-thumb{
+    background: transparent;
+    width: 10px;
+}
+.sidebarscroll:hover::-webkit-scrollbar-thumb{
+    background-color: #5c5b5b;
+    width: 5px;
+}
+.a1 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.a2{
+    margin-top: 6px;
+}
+.a2 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.a3{
+    margin-top: 6px;
+}
+.a3 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.button button {
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+    top: 22px;
+    background: #111111;
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    cursor: pointer;
+}
+.signin {
+    width: 200px;
+    position: fixed;
+    left: 1280px;
+    bottom: 0px;
+    right: 0px;
+    top: 8px;
+    width: 60px;
+    height: 50px;
+}
+.login {
+    width: 200px;
+    position: fixed;
+    left: 1380px;
+    bottom: 0px;
+    right: 0px;
+    top: 8px;
+    width: 60px;
+    height: 50px;
+}
+.signin a{
+    text-decoration: none;
+    color: white;
+}
+.login a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+}
+.song {
+    background-color: #111111;
+    position: relative;
+    width: 1150px;
+    left: 350px;
+    top: 50px;
+}
+.albums {
+    width: 300px;
+    position: relative;
+    top: 28px;
+    left: 28px;
+    font-size: 25px;
+}
+.albums h2{
+    width: 300px;
+    color: white;
+}
+.song1 {
+    width: 200px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.song1 img {
+    width: 200px;
+    border-radius: 8px;
+}
+.song1 h4{
+    color: white;
+    position: relative;
+    bottom: 12px;
+}
+.song1 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.song2 {
+    width: 200px;
+    position: relative;
+    left: 260px;
+    bottom: 272px;
+}
+.song2 img {
+    width: 200px;
+    border-radius: 8px;
+}
+.song2 h4{
+    color: white;
+    position: relative;
+    bottom: 12px;
+}
+.song2 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.song3 {
+    width: 200px;
+    position: relative;
+    left: 490px;
+    bottom: 572px;
+}
+.song3 img {
+    width: 200px;
+    border-radius: 8px;
+}
+.song3 h4{
+    color: white;
+    position: relative;
+    bottom: 12px;
+}
+.song3 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.song4 {
+    width: 200px;
+    position: relative;
+    left: 720px;
+    bottom: 870px;
+}
+.song4 img {
+    width: 200px;
+    border-radius: 8px;
+}
+.song4 h4{
+    color: white;
+    position: relative;
+    bottom: 12px;
+}
+.song4 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.song5 {
+    width: 200px;
+    position: relative;
+    left: 940px;
+    bottom: 1170px;
+}
+.song5 img {
+    width: 200px;
+    border-radius: 8px;
+}
+.song5 h4{
+    color: white;
+    position: relative;
+    bottom: 12px;
+}
+.song5 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.popular{
+    width: 300px;
+    position: relative;
+    bottom: 1150px;
+    left: 28px;
+    font-size: 25px;
+}
+.popular h2{
+width: 300px;
+color: white;
+}
+.p1 {
+    width: 200px;
+    position: relative;
+    left: 30px;
+    bottom: 1150px;
+}
+.p1 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.p1 h4{
+    color: white;
+    position: relative;
+    bottom: 8px;
+}
+.p1 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.p2 {
+    width: 200px;
+    position: relative;
+    left: 250px;
+    bottom: 1470px;
+}
+.p2 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.p2 h4{
+    color: white;
+    position: relative;
+    bottom: 8px;
+}
+.p2 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.p3 {
+    width: 200px;
+    position: relative;
+    left: 470px;
+    bottom: 1788px;
+}
+.p3 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.p3 h4{
+    color: white;
+    position: relative;
+    bottom: 8px;
+}
+.p3 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.p4 {
+    width: 200px;
+    position: relative;
+    left: 700px;
+    bottom: 2108px;
+}
+.p4 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.p4 h4{
+    color: white;
+    position: relative;
+    bottom: 8px;
+}
+.p4 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.p5 {
+    width: 200px;
+    position: relative;
+    left: 920px;
+    bottom: 2428px;
+}
+.p5 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.p5 h4{
+    color: white;
+    position: relative;
+    bottom: 8px;
+}
+.p5 p{
+    color: white;
+    position: relative;
+    bottom: 18px;
+}
+.show{
+    width: 700px;
+    position: relative;
+    bottom: 2420px;
+    left: 28px;
+    font-size: 25px;
+}
+.show h2{
+width: 700px;
+color: white;
+}
+.s1 {
+    width: 200px;
+    position: relative;
+    left: 30px;
+    bottom: 2430px;
+}
+.s1 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.s1 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.s1 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.s2 {
+    width: 200px;
+    position: relative;
+    left: 250px;
+    bottom: 2730px;
+}
+.s2 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.s2 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.s2 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.s3 {
+    width: 200px;
+    position: relative;
+    left: 470px;
+    bottom: 3028px;
+}
+.s3 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.s3 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.s3 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.s4 {
+    width: 200px;
+    position: relative;
+    left: 700px;
+    bottom: 3328px;
+}
+.s4 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.s4 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.s4 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.s5 {
+    width: 200px;
+    position: relative;
+    left: 930px;
+    bottom: 3630px;
+}
+.s5 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.s5 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.s5 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.trending{
+    width: 350px;
+    position: relative;
+    bottom: 3650px;
+    left: 28px;
+    font-size: 25px;
+}
+.trending h2{
+width: 400px;
+color: white;
+}
+.t1 {
+    width: 200px;
+    position: relative;
+    left: 30px;
+    bottom: 3650px;
+}
+.t1 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.t1 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.t1 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.t2 {
+    width: 200px;
+    position: relative;
+    left: 260px;
+    bottom: 3960px;
+}
+.t2 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.t2 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.t2 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.t3 {
+    width: 200px;
+    position: relative;
+    left: 482px;
+    bottom: 4250px;
+}
+.t3 img{
+    width: 200px;
+    border-radius: 8px;
+    height: 200px;
+}
+.t3 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.t3 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.t4 {
+    width: 200px;
+    position: relative;
+    left: 700px;
+    bottom: 4550px;
+}
+.t4 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.t4 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.t4 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.t5 {
+    width: 200px;
+    position: relative;
+    left: 930px;
+    bottom: 4850px;
+}
+.t5 img{
+    width: 200px;
+    border-radius: 8px;
+}
+.t5 h4{
+    color: white;
+    position: relative;
+    bottom: 14px;
+}
+.t5 p{
+    color: white;
+    position: relative;
+    bottom: 28px;
+}
+.footer1{
+    width: 20px;
+    position: relative;
+    bottom: 4800px;
+    left: 30px;
+}
+.footer1 h2{
+    color: white;
+}
+.footer1 a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 22px;
+}
+.footer2 {
+    width: 100px;
+    position: relative;
+    left: 230px;
+    bottom: 5010px;
+}
+.footer2 h2{
+    color: white;
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 22px;
+}
+.footer3 {
+    width: 100px;
+    position: relative;
+    left: 480px;
+    bottom: 5230px;
+}
+.footer3 h2{
+    color: white;
+}
+.footer3 a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 22px;
+}
+.footer4 {
+    width: 200px;
+    position: relative;
+    left: 630px;
+    bottom: 5435px;
+}
+.footer4 h2{
+    color: white;
+}
+.footer4 a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 22px;
+}
+.last p {
+    width: 200px;
+    color: white;
+    position: relative;
+    bottom: 5350px;
+    left: 30px;
+}
