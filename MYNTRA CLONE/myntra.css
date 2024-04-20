@@ -1,0 +1,360 @@
+body{
+    width: 920px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+.header {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: white;
+    height: 95px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.logo {
+    width: 80px;
+    position: relative;
+    left: 35px;
+    top: 25px;
+}
+.logo img {
+    width: 90px;
+}
+.list {
+    width: 600px;
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+    font-family: system-ui;
+}
+.list a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+.search {
+    width: 400px;
+    position: relative;
+    left: 700px;
+    bottom: 45px;
+    font-size: 18px;
+}
+input[type="text"] {
+    width: 450px;
+    padding: 8px;
+    height: 18px;
+    border-radius: 4px;
+}
+.profile {
+    width: 40px;
+    position: relative;
+    bottom: 78px;
+    left: 1200px;
+    cursor: pointer;
+}
+.profile h3 {
+    position: relative;
+    bottom: 10px;
+    right: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.wishlist {
+    width: 40px;
+    position: relative;
+    bottom: 142px;
+    left: 1290px;
+    cursor: pointer;
+}
+.wishlist h3 {
+    position: relative;
+    bottom: 8px;
+    right: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.bag {
+    width: 40px;
+    position: relative;
+    bottom: 204px;
+    left: 1380px;
+    cursor: pointer;
+}
+.bag h3 {
+    position: relative;
+    bottom: 8px;
+    right: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.flatimg {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.flatimg img{
+    height: 200px;
+}
+.part {
+    position: relative;
+    top: 100px;
+    width: 500px;
+}
+.part img{
+    width: 650px;
+}
+.part1 {
+    position: relative;
+    left: 650px;
+    bottom: 289px;
+    width: 500px;
+}
+.part1 img{
+    width: 650px;
+}
+.deals{
+    width: 1500px;
+    position: relative;
+    bottom: 250px;
+}
+.deals img{
+    width: 1500px;
+}
+.shop{
+    width: 1500px;
+    position: relative;
+    bottom: 200px;
+}
+.shop img{
+    height: 320px;
+}
+.span {
+    font-size: xx-large;
+    color: #0d0dce;
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+    left: 230px;
+}
+.categoryimages{
+    width: 1500px;
+    position: relative;
+    bottom: 120px;
+}
+.categoryimages img{
+    height: 320px;
+}
+.categoryimages1{
+    position: relative;
+    width: 1500px;
+    bottom: 130px;
+}
+.categoryimages1 img{
+    height: 320px;
+}
+.categoryimages2{
+    position: relative;
+    width: 1500px;
+    bottom: 130px;
+}
+.categoryimages2 img{
+    height: 320px;
+}
+.categoryimages3{
+    position: relative;
+    width: 1500px;
+    bottom: 130px;
+}
+.categoryimages3 img{
+    height: 320px;
+}
+.categoryimages4{
+    position: relative;
+    width: 1500px;
+    bottom: 130px;
+}
+.categoryimages4 img{
+    height: 320px;
+}
+.categoryimages5{
+    position: relative;
+    width: 1500px;
+    bottom: 130px;
+}
+.categoryimages5 img{
+    height: 500px;
+}
+.last{
+    width: 1500px;
+    position: relative;
+    bottom: 130px;
+}
+.last img{
+    width: 1500px;
+}
+.footer{
+    width: 1200px;
+}
+.column1 {
+    width: 200px;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+}
+.column1 span{
+    color: black;
+    position: relative;
+    bottom: 8px;
+}
+.column1 a {
+    text-decoration: none;
+    color: rgb(0 0 0 / 71%);
+    display: block;
+    line-height: 30px;
+    font-size: 16px;
+    width: 150px;
+}
+.column2 {
+    width: 200px;
+    position: relative;
+    left: 350px;
+    bottom: 300px;
+}
+.column2 span{
+    color: black;
+    position: relative;
+    bottom: 8px;
+}
+.column2 a {
+    text-decoration: none;
+    color: rgb(0 0 0 / 71%);
+    display: block;
+    line-height: 30px;
+    font-size: 16px;
+    width: 150px;
+}
+.column3 {
+    width: 300px;
+    position: relative;
+    left: 620px;
+    bottom: 560px;
+}
+.column3 span{
+    color: black;
+    position: relative;
+    bottom: 8px;
+}
+.column3 img{
+    height: 50px;
+}
+.column4 {
+    width: 200px;
+    position: relative;
+    left: 100px;
+    bottom: 420px;
+}
+.column4 span{
+    color: black;
+    position: relative;
+    bottom: 8px;
+}
+.column4 a {
+    text-decoration: none;
+    color: rgb(0 0 0 / 71%);
+    display: block;
+    line-height: 30px;
+    font-size: 16px;
+    width: 150px;
+}
+.column5 {
+    width: 1400px;
+    position: relative;
+    left: 100px;
+    bottom: 420px;
+}
+.column5 span{
+    color: black;
+    position: relative;
+    top: 10px;
+}
+.column5 p{
+    color:rgb(0 0 0 / 71%);
+    line-height: 25px;
+}
+.column6 {
+    width: 250px;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+}
+.column6 span{
+    color: #0d0dce;
+}
+.column7 {
+    width: 330px;
+    position: relative;
+    left: 540px;
+    bottom: 435px;
+}
+.column7 p{
+    color:rgb(0 0 0 / 71%) ;
+}
+.column8 {
+    width: 200px;
+    position: relative;
+    bottom: 475px;
+    left: 1100px;
+}
+.column8 p{
+    color: rgb(0 0 0 / 71%);
+}
+.column9 {
+    position: relative;
+    bottom: 450px;
+    left: 100px;
+}
+.column9 p{
+    color: rgb(0 0 0 / 71%);
+    width: 250px;
+}
+.column9 span{
+    position: relative;
+    left: 700px;
+    bottom: 80px;
+}
+.column10 {
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+}
+.column10 p{
+    width: 1400px;
+}
+.column11 {
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+}
+.column11 p{
+    width: 1400px;
+}
+.column12 {
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+}
+.column12 p{
+    width: 1400px;
+}
+.column13 {
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+}
+.column13 p{
+    width: 1400px;
+}
